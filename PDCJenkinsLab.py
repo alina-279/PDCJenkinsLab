@@ -1,1 +1,1 @@
-print("Hello! This is a test script for PDC Jenkins Lab. Test 1. Test 2.")
+print("Hello! This is a test script for PDC Jenkins Lab.")
