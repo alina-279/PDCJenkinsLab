@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -11,17 +10,10 @@ pipeline {
             }
         }
 
-        stage('Compile Java') {
+        stage('Run Python Program') {
             steps {
-                echo 'Compiling Java program'
-                sh 'javac MatrixMultiplication.java'
-            }
-        }
-
-        stage('Run Java Program') {
-            steps {
-                echo 'Executing Java program'
-                sh 'java MatrixMultiplication'
+                echo 'Executing Python program'
+                sh 'python3 PDCJenkinsLab.py'
             }
         }
     }
