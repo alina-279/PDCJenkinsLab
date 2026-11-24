@@ -1,2 +1,0 @@
-# PDCJenkinsLab
-PDC Jenkins Lab
